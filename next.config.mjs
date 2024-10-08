@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/sub-path",
+  basePath: "/deadlocktv-demo",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
